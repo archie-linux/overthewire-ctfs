@@ -1,0 +1,20 @@
+### Run the setuid binary suconnect
+
+- ./suconnect
+
+Usage: ./suconnect <portnumber>
+This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
+
+### Setup your own listener
+
+- nc -nvlp 2000
+
+### Establish a connection to your port number
+
+- nc localhost 2000
+
+Listening on 0.0.0.0 2000
+Connection received on 127.0.0.1 57138
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO # paste the current password
+
+level21 password -> EeoULMCra2q0dSkYj561DX7s1CpBuOBt 

@@ -1,0 +1,8 @@
+### Login via ssh
+
+- ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+### Find file by specified user/group and size 33
+
+- find / -type f -user bandit7 -group bandit6 -size 33c -exec cat {} \; 2>/dev/null
+- level7 password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj

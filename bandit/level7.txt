@@ -1,0 +1,8 @@
+### Login via ssh
+
+- ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+### Look file with specific word
+
+- grep millionth data.txt 
+- level8 password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc

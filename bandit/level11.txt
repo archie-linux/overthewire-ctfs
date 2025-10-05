@@ -1,0 +1,4 @@
+### To apply rot 13 with tr
+
+- cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+- level12 password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4

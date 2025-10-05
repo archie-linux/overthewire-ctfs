@@ -1,0 +1,7 @@
+- Same steps as the previous level to clone the repo
+
+- git log # show 3 commits with the latest commit msg stating that "leaked info fix"
+
+- git show <latest-commit-hash>
+
+level29 password -> 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7

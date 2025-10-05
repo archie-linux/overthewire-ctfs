@@ -1,0 +1,8 @@
+### Login via ssh
+
+- ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+### Read file with name '-'
+
+- cat ./-
+- level2 password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx

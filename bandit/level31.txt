@@ -1,0 +1,9 @@
+### Same steps as previous levels to clone the repo
+
+- cat README.md
+- echo 'May I come in?' > key.txt
+- git add -f key.txt # .gitignore file ignores all *.txt files
+- git commit -m "Added Key File"
+- git push -u origin master
+
+level32 password -> 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K

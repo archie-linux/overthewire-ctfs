@@ -1,0 +1,9 @@
+### Login via ssh
+
+- ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+### Find human-readable file with size of 1033 and perm not execute
+
+- find . -type f -size 1033c ! -perm /111 -exec cat {} \;
+
+level6 password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

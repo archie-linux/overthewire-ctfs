@@ -1,0 +1,10 @@
+### Same steps as previous levels to clone the repo
+
+- cat README.md # no password in production
+
+### List all branches
+
+- git checkout dev
+- cat README.md
+
+level30 password -> qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL

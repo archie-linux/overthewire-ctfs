@@ -1,0 +1,18 @@
+### SSH via private key
+
+- chmod 600 level_14_priv
+- ssh -i bandit14.sshkey bandit14@bandit.labs.overthewire.org -p 2220
+
+### Password for the current user can be found here: /etc/bandit_pass/bandit14 as mentioned
+    in the previous level
+
+- level14 password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+### Submit the current password on localhost port 30000
+
+bandit14@bandit:~$ nc localhost 30000
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+Correct!
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo -> level15 password
+
+

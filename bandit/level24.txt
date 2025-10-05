@@ -1,0 +1,6 @@
+### Run brute.sh that tries all the possible 4-digit codes
+
+- Paste the password of level23
+- ./brute.sh
+
+level25 password -> iCi86ttT4KSNe1armKiwbQNmB3YJP3q4

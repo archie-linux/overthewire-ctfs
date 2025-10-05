@@ -1,0 +1,10 @@
+### Connect via openssl client on port 30001
+
+- openssl s_client -connect localhost:30001
+
+### Once connected, paste the password of the current level
+
+read R BLOCK
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo                                
+Correct!
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx -> level16 password

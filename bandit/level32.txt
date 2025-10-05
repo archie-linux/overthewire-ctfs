@@ -1,0 +1,6 @@
+### Login via ssh takes us to the restricted shell
+
+- $0
+- cat /etc/bandit_pass/bandit33
+
+level33 password -> tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0

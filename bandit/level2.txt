@@ -1,0 +1,5 @@
+### Login via ssh
+
+- ssh bandit2@bandit.labs.overthewire.org -p 2220
+- cat "spaces in this filename"
+- level3 password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx

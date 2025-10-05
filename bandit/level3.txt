@@ -1,0 +1,7 @@
+### Login via ssh
+
+- ssh bandit3@bandit.labs.overthewire.org -p 2220
+- cd inhere
+- ls -al
+- cat ...Hiding-From-You
+- level4 password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ

@@ -1,0 +1,7 @@
+- cd /etc/cron.d
+- cat /usr/bin/cronjob_bandit22.sh
+
+The script writes password to /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+- cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+- level22 password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q

@@ -1,0 +1,8 @@
+
+- diff passwords.new passwords.old
+
+
+42c42
+< x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO -> level18 password
+---
+> ktfgBvpMzWKR5ENj26IbLGSblgUG9CzB

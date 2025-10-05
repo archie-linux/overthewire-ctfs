@@ -1,0 +1,18 @@
+- cd /etc/cron.d
+- cat cronjob_bandit23
+
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+
+This scrpit will run as user bandit23.
+
+### Running script commands in terminal
+
+bandit22@bandit:/etc/cron.d$ myname=bandit23
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+
+bandit22@bandit:/etc/cron.d$ echo $mytarget
+8ca319486bfbbc3663ea0fbe81326349
+
+- cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+- level23 password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga 

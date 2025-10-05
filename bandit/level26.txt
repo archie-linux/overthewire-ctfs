@@ -1,0 +1,9 @@
+### We get into bandit26 users shell with the more command
+
+- ls
+
+./bandit27-do ## setuid bit set
+
+- ./bandit27-do cat /etc/bandit_pass/bandit27
+
+level27 password -> upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB

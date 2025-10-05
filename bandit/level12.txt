@@ -1,0 +1,28 @@
+### Create a temp dir in /tmp, copy the data.txt in tmp_dr, xxd to extract the actual data
+
+- cd /tmp
+- mktemp -d
+- cd into the tmp dir created
+- cp ~/data.txt .
+- cat data.txt
+- mv data.txt hexdump_data
+- xxd -r hexdump_data compressed_data
+- ls
+- cat compressed_data | head # actual data is compressed and not readable
+
+### Identify the type of compression used
+
+- cat hexdump_data | head # the first bytes of the file begin with \x1F\x8B which tells us
+                          # that it is a gzip compressed file
+
+### The file is compressed multiple times with gz, bz2 and tar formats. Repeat the 
+    process of decompressing until you find the decompressed file.
+
+- mv compressed_data compressed_data.gz
+- gunzip -d compressed_data
+- xxd compressed_data | head # revela first few bytes as 425A which means it is compressed as bzip2
+- mv compressed_data compressed_data.bz2
+- bzip2 -d compressed_data.bz2
+
+
+- level13 password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn

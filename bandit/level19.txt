@@ -1,0 +1,13 @@
+### Run the binary with setuid bit set
+
+bandit19@bandit:~$ ./bandit20-do 
+Run a command as another user.
+  Example: ./bandit20-do id
+bandit19@bandit:~$ ./bandit20-do id
+uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
+
+As you can see, effective userid is bandit20.
+
+- ./bandit2-do cat /etc/bandit_pass/bandit20
+
+level20 password: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO

@@ -1,0 +1,24 @@
+
+### Perform NMAP Scan
+
+- nmap -p31000-32000 -sC localhost
+
+31518/tcp open  unknown
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=SnakeOil
+| Not valid before: 2024-06-10T03:59:50
+|_Not valid after:  2034-06-08T03:59:50
+31691/tcp open  unknown
+31790/tcp open  unknown
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=SnakeOil
+| Not valid before: 2024-06-10T03:59:50
+|_Not valid after:  2034-06-08T03:59:50
+31960/tcp open  unknown
+
+
+### Paste current password
+
+- ncat --ssl localhost 31790
+
+- Returns private key for level17

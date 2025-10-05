@@ -1,0 +1,7 @@
+- mktemp -d
+- cd $tmp_dir
+- git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo # clone repo on port 2220
+- cd repo
+- cat README
+
+level28 password -> Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN

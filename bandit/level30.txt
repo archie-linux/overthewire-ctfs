@@ -1,0 +1,7 @@
+### Same steps as before to clone the repo
+
+- cat README.txt # empty file
+- git tag # outputs secret
+- git show secret
+
+level31 password -> fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy 

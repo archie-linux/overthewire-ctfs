@@ -1,0 +1,13 @@
+1. Enable password-auth in ssh client-config
+
+Host *
+    SendEnv LANG LC_*
+    PasswordAuthentication yes
+
+2. Login via ssh
+
+- ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+3. cat readme
+
+- level1 password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
