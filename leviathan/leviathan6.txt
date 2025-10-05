@@ -1,0 +1,8 @@
+- ls
+- ./leviathan6
+
+### Run the brute force script to find 4 digit code
+
+- ./leviathan6_brute.sh
+
+leviathan7 password -> qEs5Io5yM8 

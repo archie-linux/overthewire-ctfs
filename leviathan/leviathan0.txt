@@ -1,0 +1,12 @@
+### Login via SSH
+
+- ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+
+### List directories
+
+- ls -al
+- cd .backup
+- ls
+- grep password bookmarks.html
+
+leviathan1 password -> 3QJ3TgzHDq

